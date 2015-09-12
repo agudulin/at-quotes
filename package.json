@@ -16,8 +16,8 @@
   "dependencies": {
   },
   "devDependencies": {
-    "babel": "^5.5.6",
-    "mocha": "^2.2.5"
+    "babel": "^5.8.23",
+    "mocha": "^2.3.2"
   },
   "main": "index.es5.js",
   "scripts": {
