@@ -1,0 +1,16 @@
+import at from './index';
+import assert from 'assert';
+
+describe('at', () => {
+  it('getFinnQuote() should return a string', () => {
+    assert(typeof at.getFinnQuote() === 'string');
+  });
+
+  it('getJakeQuote() should return a string', () => {
+    assert(typeof at.getJakeQuote() === 'string');
+  });
+
+  it('getQuote() should return a string', () => {
+    assert(typeof at.getQuote() === 'string');
+  });
+});
