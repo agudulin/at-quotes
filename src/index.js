@@ -1,4 +1,5 @@
-import { Finn, Jake } from './lib/quotes';
+import Finn from './lib/finn';
+import Jake from './lib/jake';
 
 const getRandomQoute = (arr) => {
   let randomSeason = arr[Math.floor(Math.random() * arr.length)];
