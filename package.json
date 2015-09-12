@@ -1,0 +1,31 @@
+{
+  "name": "at-quotes",
+  "description": "Random quotes from Adventure Time",
+  "version": "1.0.0",
+  "keywords": [
+    "adventure time", "adventure", "random quote"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agudulin/at-quotes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agudulin/at-quotes/issues"
+  },
+  "homepage": "https://github.com/agudulin/at-quotes#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "^5.5.6",
+    "mocha": "^2.2.5"
+  },
+  "main": "index.es5.js",
+  "scripts": {
+    "test": "mocha --require babel/register",
+    "transpile": "babel --stage 0 index.js > index.es5.js",
+    "prepublish": "npm run transpile",
+    "postpublish": "rm -rf *.es5.js"
+  },
+  "author": "Alexander Gudulin <alexandr.gudulin@gmail.com> (http://gudulin.com)",
+  "license": "MIT"
+}
