@@ -1,5 +1,6 @@
 import Finn from './lib/finn';
 import Jake from './lib/jake';
+import IceKing from './lib/ice-king';
 
 const getRandomQoute = (arr) => {
   let randomSeason = arr[Math.floor(Math.random() * arr.length)];
@@ -8,6 +9,7 @@ const getRandomQoute = (arr) => {
 }
 
 export default {
+  getIceKingQuote: () => getRandomQoute(IceKing),
   getFinnQuote: () => getRandomQoute(Finn),
   getJakeQuote: () => getRandomQoute(Jake),
   getQuote: () => getRandomQoute([...Jake, ...Finn])

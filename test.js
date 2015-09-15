@@ -10,6 +10,10 @@ describe('at', () => {
     assert(typeof at.getJakeQuote() === 'string');
   });
 
+  it('getIceKingQuote() should return a string', () => {
+    assert(typeof at.getIceKingQuote() === 'string');
+  });
+
   it('getQuote() should return a string', () => {
     assert(typeof at.getQuote() === 'string');
   });

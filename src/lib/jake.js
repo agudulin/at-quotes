@@ -1,5 +1,5 @@
 export default [
-  [
+  [ // Season 1
     `Actually, I think I'm beating it back with sheer willpower. (grows another lump) Oh, my.`,
     `No! Because no matter how messed up and lumpy I get, this guy never turns his back on me! (turns into Lumpy Jake) Oh yeah. Right behind ya. Just gotta turn my back on this guy.`,
     `Sleds are for suckers! Just ride on my gut!`,
