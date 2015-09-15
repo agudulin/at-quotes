@@ -12,5 +12,5 @@ export default {
   getIceKingQuote: () => getRandomQuote(IceKing),
   getFinnQuote: () => getRandomQuote(Finn),
   getJakeQuote: () => getRandomQuote(Jake),
-  getQuote: () => getRandomQuote([...Jake, ...Finn])
+  getQuote: () => getRandomQuote([...Jake, ...Finn, ...IceKing])
 };
