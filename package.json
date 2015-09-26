@@ -3,7 +3,9 @@
   "description": "Random quotes from Adventure Time",
   "version": "1.1.2",
   "keywords": [
-    "adventure time", "adventure", "random quote"
+    "adventure time",
+    "adventure",
+    "random quote"
   ],
   "repository": {
     "type": "git",
@@ -13,11 +15,10 @@
     "url": "https://github.com/agudulin/at-quotes/issues"
   },
   "homepage": "https://github.com/agudulin/at-quotes#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "babel": "^5.8.23",
-    "mocha": "^2.3.2"
+    "babel": "5.8.23",
+    "mocha": "2.3.3"
   },
   "main": "./dist/index.js",
   "scripts": {
