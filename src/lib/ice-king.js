@@ -60,7 +60,7 @@ export default [
     `Trust me! We are turbros! Turbo bros! Tur... bros... turbo... bros.`,
     `"What do you think, Finn? Can we pull back the veil of static and reach in to the source of all being? Behind this curtain of patterns, this random pattern generator. So clever. Right here in every home, watching us from a one-sided mirror."`,
     `Wizards only, fools, keep it tight.`,
-    `J. T. Dawgzone always says, 'Ladies are drawn to bros. with tortured pasts.' And I've got a way tortured past! I think. I don't really . . . re . . . hmm.`,
+    `J. T. Dawgzone always says, 'Ladies are drawn to bros. with tortured pasts.' And I've got a way tortured past! I think. I don't really... re... hmm.`,
     `I just wanted to be loved!`
   ],
   [ // Season 5
@@ -68,7 +68,7 @@ export default [
     `Ah! Alright! I knocked you out and brought you here! I'm sorry, but I had to do it. Each of you possess the exact qualities to pass the various tests of this dungeon. Tree Trunks, with your baking skills! Lemongrab, with your lemon-y juice! Yeah... Shelby, who should have been the bait for the fish. And BMO, who should of been here instead of this weird piece of junk that I don't remember nothing about. Ah, but I've failed!`,
     `Now you see why I need to bring you here. Behold the Ancient Sleeping Magi of Life Giving! [...] Anything goes in the Magi's ice flames comes to life! Anything at all! [...] Yes! isn't it amazing? [...] Don't be sad, because I've brought the ultimate thing! This! [...] Except it's not my journal! It's my Fionna and Cake fan fiction! All my brilliant fantasies will now be real! Fionna, Cake, Marshall Lee, will all be living breathing beings just like me!`,
     `I know you are out there somewhere. I just haven't figured out how to get to you. But believe me, I will. I will.`,
-    `I love you too . . . Gunter.`,
+    `I love you too... Gunter.`,
     `This island doesn't have a lady, this island is a lady!`,
     `Yeah, well PB is just so closed off to her emotions. She crushes the relationship so she doesn't even have to develop feelings.`,
     `Banana Guards yourself, Princess!`,
