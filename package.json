@@ -17,9 +17,9 @@
   "homepage": "https://github.com/agudulin/at-quotes#readme",
   "dependencies": {},
   "devDependencies": {
-    "babel": "^5.8.23",
+    "babel": "5.8.23",
     "husky": "^0.10.1",
-    "mocha": "^2.3.2"
+    "mocha": "2.3.3"
   },
   "main": "./dist/index.js",
   "scripts": {
