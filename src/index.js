@@ -19,9 +19,7 @@ const getRandomQuote = (arr) => {
   return transform(randomQuote);
 }
 
-export default {
-  getIceKingQuote: () => getRandomQuote(IceKing),
-  getFinnQuote: () => getRandomQuote(Finn),
-  getJakeQuote: () => getRandomQuote(Jake),
-  getQuote: () => getRandomQuote([...Jake, ...Finn, ...IceKing])
-};
+export const getIceKingQuote = () => getRandomQuote(IceKing);
+export const getFinnQuote = () => getRandomQuote(Finn);
+export const getJakeQuote = () => getRandomQuote(Jake);
+export const getQuote = () => getRandomQuote([...Jake, ...Finn, ...IceKing]);

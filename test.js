@@ -1,4 +1,4 @@
-import at from './src/index';
+import * as at from './src/index';
 import assert from 'assert';
 
 describe('at', () => {
