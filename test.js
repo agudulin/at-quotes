@@ -1,20 +1,18 @@
-import * as at from './src/index';
-import assert from 'assert';
+import test from 'ava'
+import * as at from './dist'
 
-describe('at', () => {
-  it('getFinnQuote() should return a string', () => {
-    assert(typeof at.getFinnQuote() === 'string');
-  });
+test('getFinnQuote returns a string', (t) => {
+  t.is(typeof at.getFinnQuote(), 'string')
+})
 
-  it('getJakeQuote() should return a string', () => {
-    assert(typeof at.getJakeQuote() === 'string');
-  });
+test('getJakeQuote returns a string', (t) => {
+  t.is(typeof at.getJakeQuote(), 'string')
+})
 
-  it('getIceKingQuote() should return a string', () => {
-    assert(typeof at.getIceKingQuote() === 'string');
-  });
+test('getIceKingQuote returns a string', (t) => {
+  t.is(typeof at.getIceKingQuote(), 'string')
+})
 
-  it('getQuote() should return a string', () => {
-    assert(typeof at.getQuote() === 'string');
-  });
-});
+test('getQuote returns a string', (t) => {
+  t.is(typeof at.getQuote(), 'string')
+})
