@@ -11,12 +11,12 @@ npm install --save at-quotes
 ## Usage
 
 ```js
-var at = require('at-quotes');
+import at from 'at-quotes'
 
-at.getFinnQuote();    // MY HAT IS AWESOME!
-at.getJakeQuote();    // I love you, Everything burrito.
-at.getIceKingQuote(); // Banana Guards yourself, Princess!
-at.getQuote();        // Easy peasy, livin' greasy!
+at.getFinnQuote()    // MY HAT IS AWESOME!
+at.getJakeQuote()    // I love you, Everything burrito.
+at.getIceKingQuote() // Banana Guards yourself, Princess!
+at.getQuote()        // Easy peasy, livin' greasy!
 ```
 
 ## License
