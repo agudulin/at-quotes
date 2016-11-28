@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install --save at-quotes
+yarn add at-quotes  # npm install --save at-quotes
 ```
 
 ## Usage
