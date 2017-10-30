@@ -14,8 +14,9 @@ const transform = textr()
   .use(String.prototype.trim)
 
 const getRandomQuote = (arr) => {
-  let randomSeason = arr[Math.floor(Math.random() * arr.length)]
-  let randomQuote = randomSeason[Math.floor(Math.random() * randomSeason.length)]
+  const randomSeason = arr[Math.floor(Math.random() * arr.length)]
+  const randomQuote = randomSeason[Math.floor(Math.random() * randomSeason.length)]
+
   return transform(randomQuote)
 }
 
