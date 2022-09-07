@@ -11,7 +11,7 @@ yarn add at-quotes  # npm install --save at-quotes
 ## Usage
 
 ```js
-import at from 'at-quotes'
+import * as at from 'at-quotes'
 
 at.getFinnQuote()    // MY HAT IS AWESOME!
 at.getJakeQuote()    // I love you, Everything burrito.
